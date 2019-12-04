@@ -51,7 +51,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	box-sizing:         border-box;
 }
 body {
-	background: lightblue;
+	background-color: lightblue;
 }
 article,
 aside,
