@@ -46,3 +46,63 @@ Stack trace:
 #5 /home/sefferjaanaiktkh/public_html/wordpress/wp-config.php(91): require_once('/home/sefferjaa...')
 #6 /home/sefferjaanaiktkh/public_html/wordpress/wp-load.php(37): require_once('/home/sefferjaa...')
 #7 /home/sefferjaan in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 116
+[08-Dec-2019 16:16:10 UTC] PHP Warning:  include_once(/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php): failed to open stream: No such file or directory in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:16:10 UTC] PHP Warning:  include_once(): Failed opening '/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:16:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Metronet_Profile_Picture_Gutenberg' not found in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php:116
+Stack trace:
+#0 /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php(1318): Metronet_Profile_Picture->__construct()
+#1 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(288): mt_mpp_instantiate('')
+#2 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/sefferjaanaiktkh/public_html/wordpress/wp-settings.php(392): do_action('plugins_loaded')
+#5 /home/sefferjaanaiktkh/public_html/wordpress/wp-config.php(91): require_once('/home/sefferjaa...')
+#6 /home/sefferjaanaiktkh/public_html/wordpress/wp-load.php(37): require_once('/home/sefferjaa...')
+#7 /home/sefferjaan in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 116
+[08-Dec-2019 16:17:24 UTC] PHP Warning:  include_once(/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php): failed to open stream: No such file or directory in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:17:24 UTC] PHP Warning:  include_once(): Failed opening '/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:17:24 UTC] PHP Fatal error:  Uncaught Error: Class 'Metronet_Profile_Picture_Gutenberg' not found in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php:116
+Stack trace:
+#0 /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php(1318): Metronet_Profile_Picture->__construct()
+#1 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(288): mt_mpp_instantiate('')
+#2 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/sefferjaanaiktkh/public_html/wordpress/wp-settings.php(392): do_action('plugins_loaded')
+#5 /home/sefferjaanaiktkh/public_html/wordpress/wp-config.php(91): require_once('/home/sefferjaa...')
+#6 /home/sefferjaanaiktkh/public_html/wordpress/wp-load.php(37): require_once('/home/sefferjaa...')
+#7 /home/sefferjaan in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 116
+[08-Dec-2019 16:18:20 UTC] PHP Warning:  include_once(/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php): failed to open stream: No such file or directory in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:18:20 UTC] PHP Warning:  include_once(): Failed opening '/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:18:20 UTC] PHP Fatal error:  Uncaught Error: Class 'Metronet_Profile_Picture_Gutenberg' not found in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php:116
+Stack trace:
+#0 /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php(1318): Metronet_Profile_Picture->__construct()
+#1 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(288): mt_mpp_instantiate('')
+#2 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/sefferjaanaiktkh/public_html/wordpress/wp-settings.php(392): do_action('plugins_loaded')
+#5 /home/sefferjaanaiktkh/public_html/wordpress/wp-config.php(91): require_once('/home/sefferjaa...')
+#6 /home/sefferjaanaiktkh/public_html/wordpress/wp-load.php(37): require_once('/home/sefferjaa...')
+#7 /home/sefferjaan in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 116
+[08-Dec-2019 16:18:27 UTC] PHP Warning:  include_once(/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php): failed to open stream: No such file or directory in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:18:27 UTC] PHP Warning:  include_once(): Failed opening '/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:18:27 UTC] PHP Fatal error:  Uncaught Error: Class 'Metronet_Profile_Picture_Gutenberg' not found in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php:116
+Stack trace:
+#0 /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php(1318): Metronet_Profile_Picture->__construct()
+#1 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(288): mt_mpp_instantiate('')
+#2 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/sefferjaanaiktkh/public_html/wordpress/wp-settings.php(392): do_action('plugins_loaded')
+#5 /home/sefferjaanaiktkh/public_html/wordpress/wp-config.php(91): require_once('/home/sefferjaa...')
+#6 /home/sefferjaanaiktkh/public_html/wordpress/wp-load.php(37): require_once('/home/sefferjaa...')
+#7 /home/sefferjaan in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 116
+[08-Dec-2019 16:19:57 UTC] PHP Warning:  include_once(/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php): failed to open stream: No such file or directory in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:19:57 UTC] PHP Warning:  include_once(): Failed opening '/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/gutenberg/class-gutenberg.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 115
+[08-Dec-2019 16:19:57 UTC] PHP Fatal error:  Uncaught Error: Class 'Metronet_Profile_Picture_Gutenberg' not found in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php:116
+Stack trace:
+#0 /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php(1318): Metronet_Profile_Picture->__construct()
+#1 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(288): mt_mpp_instantiate('')
+#2 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/sefferjaanaiktkh/public_html/wordpress/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/sefferjaanaiktkh/public_html/wordpress/wp-settings.php(392): do_action('plugins_loaded')
+#5 /home/sefferjaanaiktkh/public_html/wordpress/wp-config.php(91): require_once('/home/sefferjaa...')
+#6 /home/sefferjaanaiktkh/public_html/wordpress/wp-load.php(37): require_once('/home/sefferjaa...')
+#7 /home/sefferjaan in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 116
