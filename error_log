@@ -106,3 +106,5 @@ Stack trace:
 #5 /home/sefferjaanaiktkh/public_html/wordpress/wp-config.php(91): require_once('/home/sefferjaa...')
 #6 /home/sefferjaanaiktkh/public_html/wordpress/wp-load.php(37): require_once('/home/sefferjaa...')
 #7 /home/sefferjaan in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/metronet-profile-picture/metronet-profile-picture.php on line 116
+[12-Dec-2019 07:54:32 UTC] PHP Warning:  require_once(/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/includes/options.php): failed to open stream: No such file or directory in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 437
+[12-Dec-2019 07:54:32 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/includes/options.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/sefferjaanaiktkh/public_html/wordpress/wp-content/plugins/google-analytics-for-wordpress/googleanalytics.php on line 437
