@@ -1,1 +1,1 @@
-<?phpecho _('Access Denied');?>
+<?phpecho _('Access Denied');?>
