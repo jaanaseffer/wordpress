@@ -3,7 +3,7 @@ Contributors: ronalfy, Alaadiaa
 Tags: users, user profile, gravatar, avatar, blocks, block
 Requires at least: 3.5
 Tested up to: 5.3
-Stable tag: 2.3.9
+Stable tag: 2.3.10
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -33,6 +33,10 @@ https://www.youtube.com/watch?v=k9bDmgunXvM&rel=0
 == Documentation and Feedback ==
 
 See the documentation on <a href="https://github.com/ronalfy/user-profile-picture">GitHub</a>.
+
+== Add-ons ==
+
+There is currently one add-on, which <a href="https://wordpress.org/plugins/user-profile-picture-social-networks/">allows you to add social networks</a>.
 
 > Please <a href="https://wordpress.org/support/plugin/metronet-profile-picture/reviews/#new-post">Rate the Plugin</a> or <a href="https://mediaron.com/give/">Give Back</a> to show support.
 
@@ -123,6 +127,10 @@ Yes, but you'll have to set a new profile image per site.  This is currently a l
 4. Gutenberg profile front-end
 
 == Changelog ==
+
+= 2.3.10 =
+* Released 2019-12-29
+* Added new hook for add-on capability.
 
 = 2.3.9 =
 * Released 2019-12-06
@@ -343,5 +351,5 @@ Yes, but you'll have to set a new profile image per site.  This is currently a l
 
 == Upgrade Notice ==
 
-= 2.3.8 =
-Removing top-level navigation.
+= 2.3.10 =
+Added new hook for add-on capability.
